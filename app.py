@@ -118,6 +118,7 @@ def play_game():
         position = position_choice()
         change_status(position)
         check_win()
+        check_tie()
 
 
 play_game()
